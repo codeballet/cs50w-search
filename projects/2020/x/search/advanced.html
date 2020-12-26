@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
+            <title>Search</title>
+        </head>
+    <body>
+        <div class="nav-container">
+            <nav>
+                <a href="index.html">Google Search</a>
+            </nav>
+        </div>
+        <form action="https://google.com/search">
+            <p id="grid-title">Find pages with...</p>
+            <div class="form-container-adv">
+                <label class="label-text" for="all">all these words:</label>
+                <input id="all" class="input-text" type="text" name="as_q">
+                <label for="exact">this exact word or phrase:</label>
+                <input id="exact" class="input-text" type="text" name="as_epq">
+                <label for="any">any of these words:</label>
+                <input id="any" class="input-text" type="text" name="as_oq">
+                <label for="none">none of these words:</label>
+                <input id="none" class="input-text" type="text" name="as_eq">
+                <p></p>
+                <input id="advanced-submit" class="input-submit" type="submit" value="Advanced Search">
+            </div>
+        </form>
+    </body>
+</html>
